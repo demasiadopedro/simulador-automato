@@ -1,0 +1,13 @@
+# Este projeto não possui dependências externas.
+#
+# Bibliotecas padrão do Python utilizadas (já inclusas em qualquer
+# instalação do Python, não precisam ser instaladas via pip):
+#
+#   json:        carrega as definições dos autômatos a partir dos
+#                arquivos .json da pasta data/
+#
+#   pathlib:     localiza e percorre os arquivos .json dentro de data/
+#
+#   typing:      anotações de tipo (List, Dict, Set) usadas na classe
+#                Automato
+#
