@@ -2,6 +2,8 @@
 
 Trabalho da disciplina de Linguagens Formais e Autômatos. Simula o funcionamento de Autômatos Finitos Determinísticos (AFD) e Não-Determinísticos (AFN, incluindo transições-épsilon), processando palavras a partir de definições carregadas de arquivos JSON.
 
+**Um detalhe importante:** o projeto foi feito utilizando apenas bibliotecas nativas do Python (como `json` e `pathlib`). Ou seja, **não possui dependências externas e você não precisa baixar nada via pip**. É só clonar e rodar!
+
 ## Funcionalidades
 
 - Carrega automaticamente todos os autômatos definidos em `data/*.json`
@@ -57,14 +59,13 @@ Cada autômato é descrito em um arquivo separado dentro de `data/`:
 Requer Python 3.8 ou superior.
 
 ```bash
-git clone <link-do-seu-repositório>
+git clone https://github.com/demasiadopedro/simulador-automato.git
 cd simulador-automato
 
 python3 -m venv .venv
 source .venv/bin/activate      # Linux/macOS
 # .venv\Scripts\activate       # Windows
 
-pip install -r requirements.txt
 
 python3 main.py
 ```
