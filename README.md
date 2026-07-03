@@ -88,4 +88,4 @@ Ao rodar, o menu interativo é exibido:
 
 ## Sobre
 
-**Video de Apresentação:** __
+**Video de Apresentação:** _https://youtu.be/ZIgenGwf5aE_
